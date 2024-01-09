@@ -1,0 +1,15 @@
+import random
+
+# Function to scramble the word
+def word_scrambler(word):
+    letters = list(word)
+    random.shuffle(letters)
+    scrambled_word = ''.join(letters)
+    return scrambled_word
+
+# Input from user
+input_word = input("Enter a word to scramble: ")
+
+# Calling the word_scrambler function
+scrambled = word_scrambler(input_word)
+print("The scrambled word is:", scrambled)
