@@ -7,7 +7,7 @@ def word_scrambler(word):
     scrambled_word = ''.join(letters)
     return scrambled_word
 
-# Input from user1
+# Input from user11
 input_word = input("Enter a word to scramble: ")
 
 # Calling the word_scrambler function
