@@ -1,6 +1,6 @@
 import random
 
-# Function ty scramble the word21112
+# Function ty scramble the word2111
 def word_scrambler(word):
     letters = list(word)
     random.shuffle(letters)
