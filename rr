@@ -1,4 +1,4 @@
-import random
+import random1
 
 # Function ty scramble the word21112
 def word_scrambler(word):
